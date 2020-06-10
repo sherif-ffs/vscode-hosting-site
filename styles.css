@@ -1,0 +1,28 @@
+body, html {
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.full_element {
+    background-image: radial-gradient(rgba(255, 83, 112, .4), 
+    rgba(49, 142, 189, .4)), 
+    url('https://i.pinimg.com/originals/77/40/a2/7740a2b13f9fb24d9595dd2bb04e749f.gif');
+    /* background-image: radial-gradient(rgba(255, 83, 112, .6), 
+    rgba(49, 142, 189, .6)); */
+    background-size: 100%, 10%;
+    background-position: top left, 0 0;
+    background-repeat: no-repeat, repeat;
+    width: 100%;
+    opacity: .5;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    /* color: rgba(255, 83, 112, .4); */
+    /* color: rgba(49, 142, 189, .4); */
+}
+.full_element h1 {
+    margin: 0;
+    padding: 0;
+}
