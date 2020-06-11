@@ -1,0 +1,115 @@
+.downloads-and-color {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 15%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px!important;
+}
+.download-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.download-wrapper-title {
+    color: #5a667c;
+    margin: 0;
+    padding-top: 3vh;
+    text-align: center;
+    margin-left: 4%;
+    font-family: 'Lato', 'Avenir', Helvetica,Arial, sans-serif; 
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.logo-wrapper {
+    width: 55%;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #2C384E;
+    border-radius: 5px;
+    box-shadow: 0px 3px 30px rgb(30, 38, 54);
+    transition: .4s ease-in-out;
+    border: 1px solid #2C384E;    
+}
+.download-wrapper-link {
+    border: 1px solid #252F41;    
+}
+.logo-wrapper:hover {
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    box-shadow: 0px 10px 30px rgb(22, 28, 41);
+}
+.vscode-logo {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #2C384E;
+    margin-top: 7%!important;
+}
+.image-subtitle {
+    color: #f7fcfc;
+    margin: 0;
+    padding-top: 3vh;
+    text-align: center;
+    margin-left: 4%;
+    font-family: 'Lato', 'Avenir', Helvetica,Arial, sans-serif; 
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.color-palette-wrapper {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    border: 1px solid orange;
+    flex-direction: column;
+}
+.color-palette-wrapper-title {
+    color: #5a667c;
+    margin: 0;
+    padding-top: 3vh;
+    text-align: center;
+    margin-left: 4%;
+    font-family: 'Lato', 'Avenir', Helvetica,Arial, sans-serif; 
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+}
+.color-palette-container {
+    width: 70%;
+    height: 250px;
+    /* display: block; */
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.colors-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.colors-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.color {
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 360px;
+    margin: 12px;
+    box-shadow: 0px 4px 20px rgb(22, 28, 41, .5);
+}
+.color:hover {
+    cursor: pointer;
+}
