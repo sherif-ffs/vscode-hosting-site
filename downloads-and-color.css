@@ -1,5 +1,4 @@
 .downloads-and-color {
-    /* border: 1px solid red; */
     width: 70%;
     margin-left: 15%;
     margin-top: 15%;
@@ -13,7 +12,6 @@
     flex-direction: column;
     flex: 1;
     height: 100%;
-    /* border: 1px solid blue; */
 }
 .download-wrapper-title {
     color: #5a667c;
@@ -83,21 +81,17 @@
 .color-palette-container {
     width: 70%;
     height: 250px;
-    /* display: block; */
     margin: 0 auto;
     margin-top: 5%;
     margin-left: 15%;
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
 }
 @media screen and (min-width: 1900px) {
     .color-palette-container {
         width: 70%;
-        /* border: 1px solid red; */
     }
     .downloads-and-color {
-        /* border: 1px solid red; */
         width: 55%;
         margin-left: 22.5%;
         margin-top: 15%;
@@ -127,4 +121,69 @@
 }
 .color:hover {
     cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .downloads-and-color {
+        width: 100%;
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .download-wrapper-title {
+        text-align: left;
+        margin-left: 5%;
+        font-size: 1.75rem;
+    }
+    .logo-wrapper {
+        width: 90%;
+        height: 275px;
+        border: 1px solid #2C384E;    
+    }
+    .logo-wrapper:hover {
+        cursor: pointer;
+        transition: .4s ease-in-out;
+        box-shadow: 0px 10px 30px rgb(22, 28, 41);
+    }
+    .vscode-logo {
+        height: 150px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #2C384E;
+        margin-top: 7%!important;
+    }
+    .image-subtitle {
+        color: #f7fcfc;
+        opacity: .7;
+        margin: 0;
+        padding-top: 4vh;
+        text-align: center;
+        margin-left: 4%;
+        font-family: 'Lato', 'Avenir', Helvetica,Arial, sans-serif; 
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    .color-palette-wrapper {
+        margin-top: 35%;
+    }
+    .color-palette-wrapper-title {
+        padding-top: 3vh;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 1.75rem;
+    }
+    .color-palette-container {
+        margin-top: 5%;
+        margin-left: 2.5%;
+    }
+    .color {
+        background-color: blue;
+        height: 45px;
+        width: 45px;
+        border-radius: 360px;
+        margin: 8px;
+        box-shadow: 0px 4px 20px rgb(22, 28, 41, .5);
+    }
 }
