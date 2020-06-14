@@ -36,7 +36,8 @@
     border: 1px solid #2C384E;    
 }
 .download-wrapper-link {
-    border: 1px solid #252F41;    
+    border: 1px solid #252F41;   
+    text-decoration: none; 
 }
 .logo-wrapper:hover {
     cursor: pointer;
