@@ -6,13 +6,17 @@
 }
 .color-flag {
     background-color: rgb(67, 80, 104);
-    padding: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #e1e1e8;
+    opacity: .7;
     font-family: 'Lato', 'Avenir', Helvetica,Arial, sans-serif; 
     font-size: .8rem;
     margin-bottom: 1vh;
     border-radius: 3px;
     visibility: hidden;
+    /* display: none; */
     transition: .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -23,7 +27,7 @@
 }
 .colors-bottom > .color-wrapper {
     border: 1px solid red;
-    margin-right: -3px!important;
+    /* margin-right: -3px!important; */
 } */
 
 #string:hover {
@@ -45,6 +49,7 @@
 }
 #light-pink:hover ~ #light-pink-flag {
     visibility: visible;
+    /* display: block; */
     transition: .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;

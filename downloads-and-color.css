@@ -1,7 +1,7 @@
 .downloads-and-color {
     /* border: 1px solid red; */
-    width: 75%;
-    margin-left: 12.5%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 15%;
     height: min-content;
     display: flex;
@@ -66,7 +66,6 @@
     display: flex;
     flex: 1;
     height: 100%;
-    border: 1px solid orange;
     flex-direction: column;
 }
 .color-palette-wrapper-title {
@@ -87,10 +86,26 @@
     /* display: block; */
     margin: 0 auto;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 15%;
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
+}
+@media screen and (min-width: 1900px) {
+    .color-palette-container {
+        width: 70%;
+        /* border: 1px solid red; */
+    }
+    .downloads-and-color {
+        /* border: 1px solid red; */
+        width: 55%;
+        margin-left: 22.5%;
+        margin-top: 15%;
+        height: min-content;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px!important;
+    }
 }
 .colors-top {
     width: 100%;

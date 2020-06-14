@@ -17,7 +17,7 @@ body, html {
 }
 .main {
     height: 200%;
-    padding-bottom: 500px;
+    padding-bottom: 25vh;
 }
 .main-title {
     color: #f7fcfc;
@@ -52,6 +52,5 @@ body, html {
     rgba(49, 142, 189, .4)), 
     url('https://i.pinimg.com/originals/77/40/a2/7740a2b13f9fb24d9595dd2bb04e749f.gif');
     height:15vh;
-    border: 1px solid red;
     background-size: 100%, 9%;
 }
