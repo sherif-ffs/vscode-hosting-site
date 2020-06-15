@@ -55,7 +55,28 @@ body, html {
     height: 16vh;
     background-size: 100%, 10%;
 } */
-
+.credits {
+    margin: 0;
+    padding: 0;
+    margin-left: 7%;
+    font-family: 'Lato', 'Avenir', Helvetica,Arial, sans-serif; 
+    padding-bottom: 10vh;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+    color: #5a667c;
+    /* opacity: .5; */
+    font-weight: 300;
+    transition: .2 ease-in-out;
+}
+.credits a {
+    color: #5a667c;
+    text-decoration: none;
+    font-weight: 900;
+}
+.credits a:hover {
+    color: #ea6465;
+    transition: .2 ease-in-out;
+}
 @media (max-width: 600px) {
     .main {
         height: 200%;
